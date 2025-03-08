@@ -5,7 +5,7 @@ import numpy as np
 
 zomato_data=pd.read_csv('zomato-data-analysis/Zomato data .csv')
 
-#print(zomato_data)       he is printing the data
+print(zomato_data)      # he is printing the data
 
 #display the rate column
 zomato_data = zomato_data[zomato_data['rate'].str.contains(r'\d', na=False)] 
